@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">10dp</dimen>
+
+    <dimen name="activity_List_horizontal_margin">10dp</dimen>
+    <dimen name="activity__list_vertical_margin">5dp</dimen>
+
+    <dimen name="layout_marginLeft_Single_Club">100dp</dimen>
+    <dimen name="layout_marginBottom_Single_Club">10dp</dimen>
+</resources>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:padding="10dp"
+  android:background="@drawable/foot"
+    android:weightSum="1">
+
+  <!-- Name Label -->
+  <TextView android:id="@+id/name_label"
+            style="@style/Style_Activity_Single_Club_Titre"
+            android:paddingTop="10dip"
+            android:paddingBottom="30dip"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:textSize="20dp"
+            android:textColor="#2d312b"
+            android:text="@string/Titre_Single_Club" />
+
+  <!-- Ligue Label -->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ligue :"
+            android:id="@+id/textView3" />
+
+    <TextView android:id="@+id/ligue_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="Ligue"/>
+
+  <!-- district Label -->
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="District :"
+            android:id="@+id/textView4" />
+
+    <TextView android:id="@+id/disctrict_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="Disctrict"/>
+
+    <!-- Nombre equipe Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre d'equipes :"
+            android:id="@+id/textView5" />
+
+    <TextView android:id="@+id/nombreEquipe_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="nombreEquipe"/>
+
+    <!-- Correspondant Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correspondant :"
+            android:id="@+id/textView6" />
+
+    <TextView android:id="@+id/correspondant_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="correspondant"/>
+
+    <!-- Adresse Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adresse :"
+            android:id="@+id/textView7" />
+
+    <TextView android:id="@+id/adresse_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="adresse"/>
+
+    <!-- Email Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email :"
+            android:id="@+id/textView8" />
+
+    <TextView android:id="@+id/email_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="email"/>
+
+    <!-- Telephone Label -->
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telephone :"
+            android:id="@+id/textView9" />
+
+    <TextView android:id="@+id/telephone_label"
+            style="@style/Style_Activity_Single_Club"
+            android:layout_marginLeft="@dimen/layout_marginLeft_Single_Club"
+            android:layout_marginBottom="@dimen/layout_marginBottom_Single_Club"
+            android:text="telephone"/>
+
+</LinearLayout>
